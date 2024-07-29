@@ -1,4 +1,4 @@
-const port = 4000;
+const port = process.env.PORT || 4000;
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -23,6 +23,11 @@ app.use(express.json());
 app.get("/", (req, res) => {
     res.send("Express App is Running");
 });
+
+// // Start the server and listen on all network interfaces
+// app.listen(port, '0.0.0.0', () => {
+//     console.log(`Server is running on http://0.0.0.0:${4000}`);
+//   });
 
 // Image Storage Engine
 const storage = multer.diskStorage({
