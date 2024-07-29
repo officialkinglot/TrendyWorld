@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+ 
+  
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,   'Arial Narrow Bold',   "poppins";
+  background: #ffffff;
+  overflow-y: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
